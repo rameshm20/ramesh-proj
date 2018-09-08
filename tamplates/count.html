@@ -1,0 +1,7 @@
+<h1>word count is {{count}}</h1>
+{{fulltext}}<br/>
+
+<h3> word list</h3>
+{% for word,cnt in worddict%}
+{{word}} -- {{cnt}}<br/>
+{%endfor%}
